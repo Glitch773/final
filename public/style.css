@@ -60,14 +60,12 @@ body {
   padding: 3px;
   font-weight: 700;
 }
-.selected { font-weight: bold }
 .sort {
   background-color: #f4f4f4;
 }
-.sort .nav-pills > li.second > a.active,
-.sort .nav-pills > li.second > a:focus,
-.sort .nav-pills > li.second > a:hover,
- {
+.sort .nav-pills > li.active > a,
+.sort .nav-pills > li.active > a:focus,
+.sort .nav-pills > li.active > a:hover {
   background-color: transparent;
   color: #444;
   font-weight: 700;
